@@ -11,7 +11,7 @@ function Header() {
           <li className="xs:ml-20 ml-10">
             <Link to="/tours">Tours</Link>
           </li>
-          <li className="ml-20">
+          <li className="xs:ml-20 ml-10">
             <Link to="/georgia">Georgia</Link>
           </li>
         </ul>
