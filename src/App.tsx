@@ -7,7 +7,7 @@ import Details from "./pages/Details";
 
 function Root() {
   return (
-    <div className="max-w-[1400px] p-4 m-auto mt-6">
+    <div className="max-w-[1400px] p-4 m-auto pt-6">
       <Header />
       <Outlet />
     </div>
