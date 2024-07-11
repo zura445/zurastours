@@ -1,0 +1,28 @@
+{
+  "toursdata": [
+    {
+      "id": "1",
+      "title": "kazbegi",
+      "image": "/images/kazbegi.jpg",
+      "see": "see more"
+    },
+    {
+      "id": "2",
+      "title": "svaneti",
+      "image": "/images/svaneti.webp",
+      "see": "see more"
+    },
+    {
+      "id": "3",
+      "title": "kazbegi",
+      "image": "/images/kazbegi.jpg",
+      "see": "see more"
+    },
+    {
+      "id": "4",
+      "title": "svaneti",
+      "image": "/images/svaneti.webp",
+      "see": "see more"
+    }
+  ]
+}

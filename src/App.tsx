@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import Tours from "./pages/Tours";
 import Georgia from "./pages/Georgia";
+import Details from "./pages/Details";
 
 function Root() {
   return (
@@ -24,7 +25,16 @@ const router = createBrowserRouter([
       },
       {
         path: "tours",
-        element: <Tours />,
+        children: [
+          {
+            index: true,
+            element: <Tours />,
+          },
+          {
+            path: ":id",
+            element: <Details />,
+          },
+        ],
       },
       {
         path: "georgia",
