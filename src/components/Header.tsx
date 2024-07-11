@@ -4,9 +4,11 @@ function Header() {
   return (
     <header>
       <nav className="flex items-center">
-        <img src="/images/logo.jpg" alt="Logo" className="w-[100px]" />
+        <Link to={"/"}>
+          <img src="/images/logo.jpg" alt="Logo" className="w-[100px]" />
+        </Link>
         <ul className="flex text-xl">
-          <li className="ml-20">
+          <li className="xs:ml-20 ml-10">
             <Link to="/tours">Tours</Link>
           </li>
           <li className="ml-20">

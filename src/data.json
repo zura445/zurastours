@@ -29,25 +29,73 @@
       "id": "2",
       "title": "Borjomi-bakuriani",
       "image": "/images/borjomi.jpg",
-      "see": "see more"
+      "see": "see more",
+      "textPhoto": "Photo",
+      "textVideo": "Video",
+      "image1": "/images/borjomi1.png",
+      "image2": "/images/borjomi2.jpg",
+      "image3": "/images/borjomi3.jpg",
+      "image4": "/images/borjomi4.jpg",
+      "image5": "/images/borjomi5.jpg",
+      "image6": "/images/borjomi6.jpg",
+      "image7": "/images/borjomi7.jpg",
+      "image8": "/images/borjomi8.jpg",
+      "image9": "/images/borjomi9.jpg",
+      "image10": "/images/borjomi10.jpg"
     },
     {
       "id": "3",
       "title": "Batumi",
       "image": "/images/batumi.webp",
-      "see": "see more"
+      "textPhoto": "Photo",
+      "textVideo": "Video",
+      "see": "see more",
+      "image1": "/images/batumi1.jpg",
+      "image2": "/images/batumi2.jpg",
+      "image3": "/images/batumi3.jpg",
+      "image4": "/images/batumi4.jpg",
+      "image5": "/images/batumi5.jpg",
+      "image6": "/images/batumi6.jpg",
+      "image7": "/images/batumi7.jpg",
+      "image8": "/images/batumi8.jpg",
+      "image9": "/images/batumi9.jpg",
+      "image10": "/images/batumi10.jpg"
     },
     {
       "id": "4",
       "title": "Kakheti-Lopota",
       "image": "/images/lopota.jpg",
-      "see": "see more"
+      "textPhoto": "Photo",
+      "textVideo": "Video",
+      "see": "see more",
+      "image1": "/images/lopota1.jpg",
+      "image2": "/images/lopota2.jpg",
+      "image3": "/images/lopota3.jpg",
+      "image4": "/images/lopota4.jpg",
+      "image5": "/images/lopota5.jpg",
+      "image6": "/images/lopota6.jpg",
+      "image7": "/images/lopota7.jpg",
+      "image8": "/images/lopota8.jpg",
+      "image9": "/images/lopota9.jpg",
+      "image10": "/images/lopota10.jpg"
     },
     {
       "id": "5",
       "title": "Mtskheta-Tbilisi",
       "image": "/images/mcxeta.jpg",
-      "see": "see more"
+      "see": "see more",
+      "textPhoto": "Photo",
+      "textVideo": "Video",
+      "image1": "/images/tbilisi1.jpg",
+      "image2": "/images/tbilisi2.jpg",
+      "image3": "/images/tbilisi3.jpg",
+      "image4": "/images/tbilisi4.jpg",
+      "image5": "/images/tbilisi5.jpg",
+      "image6": "/images/tbilisi6.jpg",
+      "image7": "/images/tbilisi7.jpg",
+      "image8": "/images/tbilisi8.jpg",
+      "image9": "/images/tbilisi9.jpg",
+      "image10": "/images/tbilisi10.jpg"
     }
   ]
 }

@@ -3,12 +3,14 @@ function Home() {
     <div className="mt-4 pb-10">
       <div className="flex relative">
         <div className="absolute inset-0 flex items-center justify-center z-10">
-          <p className="text-yellow-300 text-8xl">This is Georgia</p>
+          <p className="text-yellow-300 text-5xl md:text-8xl">
+            This is Georgia
+          </p>
         </div>
         <img
           src="/images/header-image-1.jpg"
           alt=""
-          className="w-full h-[200px] object-cover"
+          className="w-full h-[200px] object-cover xl:block hidden"
         />
         <img
           src="/images/header-image-2.jpg"
@@ -18,10 +20,10 @@ function Home() {
         <img
           src="/images/header-image-3.jpg"
           alt=""
-          className="w-full h-[200px] object-cover"
+          className="w-full h-[200px] object-cover md:block hidden"
         />
       </div>
-      <div className="flex mt-8 gap-8">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-8 mt-8">
         <img src="/images/food.jpg" alt="food image" className="object-cover" />
         <div className="">
           <h2 className="font-bold text-2xl">A Taste of Georgia</h2>
@@ -42,8 +44,8 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="flex mt-8 gap-8">
-        <div className="">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-8 mt-8">
+        <div className="md:order-1 order-2">
           <h2 className="font-bold text-2xl">
             Discover Old Tbilisi's Hidden Gems
           </h2>
@@ -70,11 +72,11 @@ function Home() {
         </div>
         <img
           src="/images/old-tbilisi.jpg"
-          alt="food image"
-          className="object-cover w-[800px] h-[450px]"
+          alt="Old Tbilisi image"
+          className="object-cover w-[800px] h-[450px] md:order-2 order-1"
         />
       </div>
-      <div className="flex mt-8 gap-8">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-8 mt-8">
         <img
           src="/images/shop.webp"
           alt="food image"
