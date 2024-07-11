@@ -9,6 +9,7 @@ function Details() {
   return (
     <div className="p-8">
       <h1>{singlePost?.title}</h1>
+      <div className="w-full h-[1px] bg-black"></div>
       <img
         src={singlePost?.image}
         alt="images"
