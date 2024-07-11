@@ -1,7 +1,7 @@
 function Georgia() {
   return (
     <div className="">
-      <p className="mt-4 font-bold">
+      <p className="mt-4 font-bold text-black">
         "Discover Georgia with Zura Tours - where East meets West in perfect
         harmony. From snow-capped mountains to lush valleys, ancient churches to
         modern cities, Georgia offers a unique blend of history and comfort.
