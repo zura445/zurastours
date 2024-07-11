@@ -27,7 +27,7 @@ function Home() {
         <img src="/images/food.jpg" alt="food image" className="object-cover" />
         <div className="">
           <h2 className="font-bold text-2xl">A Taste of Georgia</h2>
-          <p>
+          <p className="text-black">
             Fatima's eyes widened as she took her first bite of Adjarian
             khachapuri. The boat-shaped bread, filled with melted cheese and a
             golden egg yolk, was unlike anything she had tasted before. "This is
@@ -49,7 +49,7 @@ function Home() {
           <h2 className="font-bold text-2xl">
             Discover Old Tbilisi's Hidden Gems
           </h2>
-          <p>
+          <p className="text-black">
             Step into the enchanting world of Old Tbilisi, where centuries-old
             traditions meet modern hospitality. As you wander through its
             winding cobblestone streets, you'll feel a familiar warmth
@@ -86,7 +86,7 @@ function Home() {
           <h2 className="font-bold text-2xl">
             Shopping in Georgia: A Blend of Tradition and Luxury
           </h2>
-          <p>
+          <p className="text-black">
             Georgia offers a unique shopping experience that combines
             traditional crafts with modern luxury, perfect for discerning Arab
             visitors. Start your shopping adventure in Tbilisi's charming Old
