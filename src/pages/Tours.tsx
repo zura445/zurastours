@@ -14,6 +14,10 @@ function Tours() {
                 alt=""
                 className="object-cover w-[300px] h-[300px] mt-2 rounded-xl"
               />
+              <div className="flex font-bold mt-3">
+                <p>{tour.textPrice}</p>
+                <p className="ml-2">{tour.price}</p>
+              </div>
               <Link to={`/tours/${tour.title}`} className="mt-2">
                 {tour.see}
               </Link>
